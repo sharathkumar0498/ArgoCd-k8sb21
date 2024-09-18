@@ -39,7 +39,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: votingapp
 ---
-#test
+#
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
