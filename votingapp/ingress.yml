@@ -9,12 +9,12 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "www.k8sclass.xyz"
-    - "vote.k8sclass.xyz"
-    - "result.k8sclass.xyz"
+    - "www.kubernetesonline.xyz"
+    - "vote.kubernetesonline.xyz"
+    - "result.kubernetesonline.xyz"
     secretName: nginx-tls
   rules:
-  - host: vote.k8sclass.xyz
+  - host: vote.kubernetesonline.xyz
     http:
       paths:
       - path: /
@@ -24,7 +24,7 @@ spec:
               name: vote
               port: 
                 number: 80
-  - host: result.k8sclass.xyz
+  - host: result.kubernetesonline.xyz
     http:
       paths:
       - path: /

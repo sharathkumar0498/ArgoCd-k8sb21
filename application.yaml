@@ -11,7 +11,7 @@ spec:
       allowEmpty: true
   project: default
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb21-argocd.git
+    repoURL: git@github.com:sharathkumar0498/ArgoCd-k8sb21.git
     targetRevision: HEAD
     path: deploy
   destination:
@@ -32,7 +32,7 @@ spec:
       allowEmpty: true
   project: default
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb21-argocd.git
+    repoURL: git@github.com:sharathkumar0498/ArgoCd-k8sb21.git
     targetRevision: HEAD
     path: votingapp
   destination:
@@ -53,7 +53,7 @@ spec:
       allowEmpty: true
   project: default
   source:
-    repoURL: git@github.com:SreeVeerDevOps/k8sb21-argocd.git
+    repoURL: git@github.com:sharathkumar0498/ArgoCd-k8sb21.git
     targetRevision: HEAD
     path: ArgoApps
   destination:

@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - "app1.k8sclass.xyz"
+    - "app1.kubernetesonline.xyz"
     secretName: nginx-tls
   rules:
-  - host: app1.k8sclass.xyz
+  - host: app1.kubernetesonline.xyz
     http:
       paths:
       - path: /
